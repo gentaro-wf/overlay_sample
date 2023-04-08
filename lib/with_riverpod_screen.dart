@@ -23,6 +23,7 @@ class _WithRiverpodScreenState extends ConsumerState<WithRiverpodScreen> {
   void removeOverlay() {
     if (overlay != null) {
       overlay!.remove();
+      overlay = null;
     }
   }
 
